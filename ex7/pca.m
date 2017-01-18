@@ -21,6 +21,11 @@ S = zeros(n);
 %
 
 
+V=zeros(n);
+sigma=X'*X/m;
+[U,S]=svd(sigma);
+
+
 
 
 
